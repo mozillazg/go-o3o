@@ -26,7 +26,11 @@ func mapEmoticons() map[string][]string {
 	for _, line := range yans {
 		tags := strings.Split(line.tag, " ")
 		for _, tag := range tags {
-			s[tag] = line.yan
+			if _, ok := s[tag]; ok {
+				s[tag] = append(s[tag], line.yan...)
+			} else {
+				s[tag] = line.yan
+			}
 		}
 	}
 	return s
