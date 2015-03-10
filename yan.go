@@ -5,17 +5,17 @@ type yan struct {
 	yan []string
 }
 
-var yanSlice = []yan{
+var yans = []yan{
 	{
-		"tag": "laugh 笑 哈哈",
-		"yan": []string{
+		tag: "laugh 笑 哈哈",
+		yan: []string{
 			"o(*≧▽≦)ツ┏━┓",
 			"(/≥▽≤/)",
 			"ヾ(o◕∀◕)ﾉ",
 		},
 	}, {
-		"tag": "wanna",
-		"yan": []string{
+		tag: "wanna",
+		yan: []string{
 			"✪ω✪",
 			"╰(*°▽°*)╯",
 			"≖‿≖✧",
@@ -28,8 +28,8 @@ var yanSlice = []yan{
 			"（¯﹃¯）",
 		},
 	}, {
-		"tag": "chill 摊手 手 无奈 sigh",
-		"yan": []string{
+		tag: "chill 摊手 手 无奈 sigh",
+		yan: []string{
 			"╮(╯▽╰)╭",
 			"╮(╯_╰)╭",
 			"(￣▽￣)",
@@ -40,8 +40,8 @@ var yanSlice = []yan{
 			"╮(╯﹏╰）╭",
 		},
 	}, {
-		"tag": "><",
-		"yan": []string{
+		tag: "><",
+		yan: []string{
 			"(*≧m≦*)",
 			"(>_<)",
 			"o(>< )o",
@@ -52,8 +52,8 @@ var yanSlice = []yan{
 			"【><。】",
 		},
 	}, {
-		"tag": "angry 生气 上火 恼 怒 疯 啊 草 cao 艹 靠 kao sad",
-		"yan": []string{
+		tag: "angry 生气 上火 恼 怒 疯 啊 草 cao 艹 靠 kao sad",
+		yan: []string{
 			"(,,#ﾟДﾟ)",
 			"ヽ(ｏ`皿′ｏ)ﾉ",
 			"ヽ(≧Д≦)ノ",
@@ -106,8 +106,8 @@ var yanSlice = []yan{
 			"(>人<)",
 		},
 	}, {
-		"tag": "猪 zhu pig",
-		"yan": []string{
+		tag: "猪 zhu pig",
+		yan: []string{
 			"( ´(00)`)",
 			"ヾ(；ﾟ(OO)ﾟ)ﾉ",
 			"ヽ(*’(OO)’)ﾉ",
@@ -175,8 +175,8 @@ var yanSlice = []yan{
 			"༼´◓ɷ◔`༽",
 		},
 	}, {
-		"tag": "sorry 错 道歉 该打 跪 cuo",
-		"yan": []string{
+		tag: "sorry 错 道歉 该打 跪 cuo",
+		yan: []string{
 			"m(_ _)m",
 			"m(._.)m",
 			"ｍ（．＿．）ｍ",
@@ -188,8 +188,8 @@ var yanSlice = []yan{
 			"m(￢0￢)m",
 		},
 	}, {
-		"tag": "熊 xiong bear",
-		"yan": []string{
+		tag: "熊 xiong bear",
+		yan: []string{
 			"(￣(エ)￣)",
 			"(｡･ω･｡)",
 			"(●｀･(ｴ)･´●)",
@@ -225,8 +225,8 @@ var yanSlice = []yan{
 			"(ó㉨ò)",
 		},
 	}, {
-		"tag": "猫 喵 mao miao cat",
-		"yan": []string{
+		tag: "猫 喵 mao miao cat",
+		yan: []string{
 			"(=^･ｪ･^=)",
 			"(=^‥^=)",
 			"( =①ω①=)",
@@ -260,8 +260,8 @@ var yanSlice = []yan{
 			"=’①。①’=",
 		},
 	}, {
-		"tag": "困惑 confuse ？ ? 神马 shenma what 什么",
-		"yan": []string{
+		tag: "困惑 confuse ？ ? 神马 shenma what 什么",
+		yan: []string{
 			"(´･_･`)",
 			"(・_・ヾ",
 			"(￣(エ)￣)ゞ",
@@ -286,8 +286,8 @@ var yanSlice = []yan{
 			"く（＾_・）ゝ",
 		},
 	}, {
-		"tag": "叹气 无语 唉 sigh 人生",
-		"yan": []string{
+		tag: "叹气 无语 唉 sigh 人生",
+		yan: []string{
 			"(◎_◎;)",
 			"(｀_´)ゞ",
 			"(◎-◎；)",
@@ -296,8 +296,8 @@ var yanSlice = []yan{
 			"(´−｀) ﾝｰ",
 		},
 	}, {
-		"tag": "smile laugh lala lalala 舞 嗨 啦啦 啦啦啦 happy 高兴 哈哈 哈 haha",
-		"yan": []string{
+		tag: "smile laugh lala lalala 舞 嗨 啦啦 啦啦啦 happy 高兴 哈哈 哈 haha",
+		yan: []string{
 			"(●'◡'●)ﾉ♥",
 			"<(▰˘◡˘▰)>",
 			"｡◕‿◕｡",
@@ -467,8 +467,8 @@ var yanSlice = []yan{
 			"（ｖ＾＿＾）ｖ",
 		},
 	}, {
-		"tag": "死 si 挂 die dead",
-		"yan": []string{
+		tag: "死 si 挂 die dead",
+		yan: []string{
 			"（x_x；）",
 			"(*_*)",
 			"(×_×;）",
@@ -481,8 +481,8 @@ var yanSlice = []yan{
 			"(＊0＊;)",
 		},
 	}, {
-		"tag": "fail 败 投降 baile 杯具",
-		"yan": []string{
+		tag: "fail 败 投降 baile 杯具",
+		yan: []string{
 			"＼（－－）／",
 			"＼(-___________-;)／",
 			"/(;-_-)",
@@ -510,8 +510,8 @@ var yanSlice = []yan{
 			"( -。-)",
 		},
 	}, {
-		"tag": "狗 dog 汪 gou",
-		"yan": []string{
+		tag: "狗 dog 汪 gou",
+		yan: []string{
 			"Uo･ｪ･oU",
 			"∪･ω･∪",
 			"U｡･ｪ･｡U",
@@ -534,8 +534,8 @@ var yanSlice = []yan{
 			"(〓￣(∵エ∵)￣〓)",
 		},
 	}, {
-		"tag": "drink 喝 干",
-		"yan": []string{
+		tag: "drink 喝 干",
+		yan: []string{
 			"ｏ口(・∀・ )",
 			"(。・・)_且",
 			"且_(ﾟ◇ﾟ；)ノﾞ",
@@ -553,8 +553,8 @@ var yanSlice = []yan{
 			"且_(・_・ )",
 		},
 	}, {
-		"tag": "evil 嘿 嘿嘿 heihei 邪恶 Evil 阴谋 鬼鬼祟祟 卑鄙",
-		"yan": []string{
+		tag: "evil 嘿 嘿嘿 heihei 邪恶 Evil 阴谋 鬼鬼祟祟 卑鄙",
+		yan: []string{
 			"(・｀ω´・)",
 			"ψ(｀∇´)ψ",
 			"（｀ー´）",
@@ -577,8 +577,8 @@ var yanSlice = []yan{
 			"→_→",
 		},
 	}, {
-		"tag": "fish seafood 鱼 水生 海货",
-		"yan": []string{
+		tag: "fish seafood 鱼 水生 海货",
+		yan: []string{
 			"<*)) >>=<",
 			">゜))))彡",
 			"<゜)))彡",
@@ -605,8 +605,8 @@ var yanSlice = []yan{
 			"ミ．．ミ",
 		},
 	}, {
-		"tag": "friend 朋友 握手 闺蜜 亲密 逛 哥俩",
-		"yan": []string{
+		tag: "friend 朋友 握手 闺蜜 亲密 逛 哥俩",
+		yan: []string{
 			"ヽ(∀゜ )人( ゜∀)ノ",
 			"(*･∀･)／＼(･∀･*)",
 			"＼（＾∀＾）メ（＾∀＾）ノ",
@@ -650,8 +650,8 @@ var yanSlice = []yan{
 			"(°◇°人°◇°)",
 		},
 	}, {
-		"tag": "bye goodbye byebye 白白 拜拜 再见 goodbye 欧耶 庆祝 胜利 挥手",
-		"yan": []string{
+		tag: "bye goodbye byebye 白白 拜拜 再见 goodbye 欧耶 庆祝 胜利 挥手",
+		yan: []string{
 			"ヾ(＾∇＾)",
 			"(^-^*)/",
 			"( ﾟ▽ﾟ)/",
@@ -706,8 +706,8 @@ var yanSlice = []yan{
 			"╰(￣▽￣)╮",
 		},
 	}, {
-		"tag": "display 隐 藏 匿 不见 没了 hide",
-		"yan": []string{
+		tag: "display 隐 藏 匿 不见 没了 hide",
+		yan: []string{
 			"|･ω･｀)",
 			"ﾍ(･_|",
 			"｜−・;）",
@@ -715,8 +715,8 @@ var yanSlice = []yan{
 			"|_・)",
 		},
 	}, {
-		"tag": "爱 love 心 heart",
-		"yan": []string{
+		tag: "爱 love 心 heart",
+		yan: []string{
 			"(´∀｀)♡",
 			"(‘∀’●)♡",
 			"（*´▽｀*）",
@@ -739,8 +739,8 @@ var yanSlice = []yan{
 			"(｡’▽’｡)♡",
 		},
 	}, {
-		"tag": "亲 啵 kiss",
-		"yan": []string{
+		tag: "亲 啵 kiss",
+		yan: []string{
 			"(´ε｀ )♡",
 			"～(^з^)-☆",
 			"|°з°|",
@@ -763,8 +763,8 @@ var yanSlice = []yan{
 			" (╭￣3￣)╭♡",
 		},
 	}, {
-		"tag": "handup 举手 诸如",
-		"yan": []string{
+		tag: "handup 举手 诸如",
+		yan: []string{
 			"ヽ（´ー｀）┌",
 			"┗┐ヽ(′Д、`*)ﾉ┌┛",
 			"ヽ( ´¬`)ノ",
@@ -785,8 +785,8 @@ var yanSlice = []yan{
 			"（＾～＾）",
 		},
 	}, {
-		"tag": "monkey 猴 猩",
-		"yan": []string{
+		tag: "monkey 猴 猩",
+		yan: []string{
 			"@(o･ｪ･)@",
 			"└@(･ｪ･)@┐",
 			"@(｡･o･)@",
@@ -795,8 +795,8 @@ var yanSlice = []yan{
 			"@(*^ｪ^)@",
 		},
 	}, {
-		"tag": "old mustache 胡子 老",
-		"yan": []string{
+		tag: "old mustache 胡子 老",
+		yan: []string{
 			"(´┏o┓｀)",
 			"ﾐ(´┏ω┓｀)/",
 			"(´┏･┓｀)",
@@ -807,8 +807,8 @@ var yanSlice = []yan{
 			"(￣┏∞┓￣)",
 		},
 	}, {
-		"tag": "ache 疼 难受 痛 哎呦 ><",
-		"yan": []string{
+		tag: "ache 疼 难受 痛 哎呦 ><",
+		yan: []string{
 			"☆⌒(＞。≪)",
 			"☆￣(＞。☆",
 			"~(>_<。)＼",
@@ -822,8 +822,8 @@ var yanSlice = []yan{
 			"ヘ（。□°）ヘ",
 		},
 	}, {
-		"tag": "blue cry sad 伤心 哭 wuwu 呜 呜呜",
-		"yan": []string{
+		tag: "blue cry sad 伤心 哭 wuwu 呜 呜呜",
+		yan: []string{
 			"（ ; ; ）",
 			"(T＿T)",
 			"（ ＴДＴ）",
@@ -879,8 +879,8 @@ var yanSlice = []yan{
 			"（/TДT)/",
 		},
 	}, {
-		"tag": "afraid 怕 吓 惊 震惊 surprise",
-		"yan": []string{
+		tag: "afraid 怕 吓 惊 震惊 surprise",
+		yan: []string{
 			"( ꒪Д꒪)ノ",
 			"(((( ;°Д°))))",
 			"((((；゜Д゜)))",
@@ -919,8 +919,8 @@ var yanSlice = []yan{
 			"0ω0",
 		},
 	}, {
-		"tag": "shy 羞 害羞 腼腆 尴尬",
-		"yan": []string{
+		tag: "shy 羞 害羞 腼腆 尴尬",
+		yan: []string{
 			"(^_^;)",
 			"(^^ゞ",
 			"(^^;)",
@@ -945,8 +945,8 @@ var yanSlice = []yan{
 			"o(*////▽////*)q",
 		},
 	}, {
-		"tag": "song sing 唱 歌",
-		"yan": []string{
+		tag: "song sing 唱 歌",
+		yan: []string{
 			"ヾ(´□｀* )ノ",
 			"（＾Ｏ＾☆♪",
 			"＼(^o^)／",
@@ -961,8 +961,8 @@ var yanSlice = []yan{
 			"(ﾉ´▽｀)ﾉ♪",
 		},
 	}, {
-		"tag": "sleep tired asleep tired 睡 觉 困 累",
-		"yan": []string{
+		tag: "sleep tired asleep tired 睡 觉 困 累",
+		yan: []string{
 			"Σ(￣。￣ノ)ノ",
 			"(-ｪ-)｡o",
 			"(;´ρ`)",
@@ -989,8 +989,8 @@ var yanSlice = []yan{
 			"（´□｀川）",
 		},
 	}, {
-		"tag": "proud 得意 耶",
-		"yan": []string{
+		tag: "proud 得意 耶",
+		yan: []string{
 			"ー(￣～￣)ξ",
 			"(`へ´*)ノ",
 			"(￣^￣)",
@@ -1004,8 +1004,8 @@ var yanSlice = []yan{
 			"（｀＾´）ノ",
 		},
 	}, {
-		"tag": "blink 眨 眨眼",
-		"yan": []string{
+		tag: "blink 眨 眨眼",
+		yan: []string{
 			"（＾＿－）",
 			"(－ｏ⌒)",
 			"（＾＿−）",
@@ -1021,8 +1021,8 @@ var yanSlice = []yan{
 			"＼（^０＾）／",
 		},
 	}, {
-		"tag": "wtf 担心 掀桌 table",
-		"yan": []string{
+		tag: "wtf 担心 掀桌 table",
+		yan: []string{
 			"(ーー;)",
 			"( ；´Д｀)",
 			"（；￣ェ￣）",
@@ -1052,8 +1052,8 @@ var yanSlice = []yan{
 			"(＃｀皿´) ( -д-)ﾉ",
 		},
 	}, {
-		"tag": "write 写",
-		"yan": []string{
+		tag: "write 写",
+		yan: []string{
 			"φ(￣ー￣ )ノ",
 			"φ(°ρ°*)メ",
 			"＿φ(□□ヘ)",
@@ -1071,8 +1071,8 @@ var yanSlice = []yan{
 			"φ(．．;)",
 		},
 	}, {
-		"tag": "other 颜 其他",
-		"yan": []string{
+		tag: "other 颜 其他",
+		yan: []string{
 			"(´Д` )",
 			"・゜・(ノД`)",
 			"ヽ(´Д｀ヽ",
@@ -1111,39 +1111,39 @@ var yanSlice = []yan{
 			"_(:з」∠)_",
 		},
 	}, {
-		"tag": "throw 扔 丢 弃",
-		"yan": []string{"(*・_・)ノ⌒*"},
+		tag: "throw 扔 丢 弃",
+		yan: []string{"(*・_・)ノ⌒*"},
 	}, {
-		"tag": "ping pong badminton 乒乓 羽毛球",
-		"yan": []string{
+		tag: "ping pong badminton 乒乓 羽毛球",
+		yan: []string{
 			"(-^-^)p_____|_o____q(^-^ )",
 			"( ^o)ρ┳┻┳°σ(o^ ) ",
 			"ヽ(^o^)ρ┳┻┳°σ(^o^)/",
 		},
 	}, {
-		"tag": "knock 敲头",
-		"yan": []string{" (ｏ・_・)ノ”(ノ_＜。) ", "（。_°☆＼(- – )"},
+		tag: "knock 敲头",
+		yan: []string{" (ｏ・_・)ノ”(ノ_＜。) ", "（。_°☆＼(- – )"},
 	}, {
-		"tag": "gun 枪",
-		"yan": []string{"￢o(￣-￣ﾒ)"},
+		tag: "gun 枪",
+		yan: []string{"￢o(￣-￣ﾒ)"},
 	}, {
-		"tag": "pick 捡",
-		"yan": []string{"((((*｡_｡)_  "},
+		tag: "pick 捡",
+		yan: []string{"((((*｡_｡)_  "},
 	}, {
-		"tag": "kill pk vs 杀",
-		"yan": []string{"Ｏ( ｀_´)乂(｀_´ )Ｏ ", "( `_)乂(_’ ) "},
+		tag: "kill pk vs 杀",
+		yan: []string{"Ｏ( ｀_´)乂(｀_´ )Ｏ ", "( `_)乂(_’ ) "},
 	}, {
-		"tag": "hail 呼叫",
-		"yan": []string{"( ｣ﾟДﾟ)｣＜"},
+		tag: "hail 呼叫",
+		yan: []string{"( ｣ﾟДﾟ)｣＜"},
 	}, {
-		"tag": "good wonderful 棒",
-		"yan": []string{"o((>ω< ))o"},
+		tag: "good wonderful 棒",
+		yan: []string{"o((>ω< ))o"},
 	}, {
-		"tag": "jiong 囧",
-		"yan": []string{"( ꒪⌓꒪) "},
+		tag: "jiong 囧",
+		yan: []string{"( ꒪⌓꒪) "},
 	}, {
-		"tag": "news 最新",
-		"yan": []string{
+		tag: "news 最新",
+		yan: []string{
 			"( ｣ﾟДﾟ)｣＜", "( •ॢ◡-ॢ)-♡    ",
 			"(☽ ̍̑⚈͜ ̍̑☾)", "(¦3[▓▓]   ",
 			"(′︿‵｡)   ", "( ꒪⌓꒪)   ",
