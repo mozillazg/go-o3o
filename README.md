@@ -1,5 +1,7 @@
 # go-o3o
 
+[![Build Status](https://travis-ci.org/mozillazg/go-o3o.svg)](https://travis-ci.org/mozillazg/go-o3o)
+
 golang implementation of [o3o](https://github.com/turingou/o3o)
 
 
@@ -10,7 +12,7 @@ golang implementation of [o3o](https://github.com/turingou/o3o)
 
 ## Usage
 
-    # list all available tags
+    # random emoticon
     $ o3o
      (￣┏Д┓￣ )
 
