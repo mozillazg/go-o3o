@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/mozillazg/go-o3o"
 )
@@ -29,9 +30,7 @@ func main() {
 		return
 	}
 	if key == "ls" || key == "list" {
-		for _, n := range o3o.O3O("").([]string) {
-			fmt.Println(n)
-		}
+		fmt.Println(strings.Join(o3o.O3O("").([]string), ", "))
 		return
 	}
 
